@@ -1,0 +1,15 @@
+.head{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../img/fondo-Cabecera.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.head-Image{
+    width: 450px;
+    padding-top: 3%;
+}
+
+.barSearch {
+
+}

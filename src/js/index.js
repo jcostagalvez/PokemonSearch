@@ -1,4 +1,5 @@
 import Recipe from './model/pokemonsController';
+import "../css/style.css";
 
 const searchPokemon = async (name) => {
     const pokemon = new Recipe(name);
