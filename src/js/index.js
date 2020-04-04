@@ -6,4 +6,6 @@ const searchPokemon = async (name) => {
     return pokemonfound;
 };
 
-searchPokemon('pikachu');
+const pokemon = searchPokemon('pikachu');
+
+console.log(pokemon);

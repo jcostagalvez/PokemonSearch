@@ -12,6 +12,7 @@ export default class Recipe{
 
         const response = await fetchCall(proxy+url+this.name);
         const data = await response.json();
+        console.log(data);
         return data;
 
     };
