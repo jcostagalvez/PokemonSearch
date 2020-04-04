@@ -84,5 +84,4 @@ export const fetchCall = async (url) => {
       return cacheResponse(cache.response);
 
     };
-
 };

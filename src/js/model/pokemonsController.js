@@ -15,6 +15,5 @@ export default class Recipe{
         console.log(data);
         return data;
 
-    };
-
-};
+    }
+}
