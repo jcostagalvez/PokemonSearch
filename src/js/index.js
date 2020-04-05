@@ -1,12 +1,10 @@
-import Recipe from './model/pokemonsController';
+import llamada from './model/searchController';
 import "../css/style.css";
 
 const searchPokemon = async (name) => {
-    const pokemon = new Recipe(name);
+    const pokemon = new llamada(name);
     const pokemonfound = await pokemon.getPokemon();
-    return pokemonfound;
+    console.log(pokemonfound);
 };
 
 const pokemon = searchPokemon('pikachu');
-
-console.log(pokemon);

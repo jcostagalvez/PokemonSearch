@@ -7,13 +7,11 @@ export default class Recipe{
 
         this.name = name;
     };
-
+    
     async getPokemon() {
 
         const response = await fetchCall(proxy+url+this.name);
         const data = await response.json();
-        console.log(data);
         return data;
-
     }
 }

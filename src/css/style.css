@@ -1,15 +1,33 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+/* Cabecera*/
 .head{
     background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../img/fondo-Cabecera.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     text-align: center;
+    margin: 0;
 }
+
 .head-Image{
     width: 450px;
     padding-top: 3%;
 }
 
-.barSearch {
+.barra-buscadora{display: flex;
+margin-top: 5%;}
 
+.texto-busqueda{
+    text-align: center;
+    width: 50%;
+    height: 60px; 
+    margin-left: 24%; 
+}
+
+.boton-busqueda{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
